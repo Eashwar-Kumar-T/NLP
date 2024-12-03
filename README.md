@@ -21,13 +21,13 @@ Step-4: Run the Application
 * Interactive, responsive, and easy-to-use interface.
 
 # Working
--> A Flask application acts as the frontend to retrive the csv file from the user. \n
--> Then the user is prompted for a query for graph generation. \n
--> The headers of the .csv file and prompt is sent to the llama2 large language model to retrive the appropriate X-axis, Y-axis and the graph type. \n
--> Results are then processed and a graph is generated via the plotly module. \n
+-> A Flask application acts as the frontend to retrive the csv file from the user. <br/>
+-> Then the user is prompted for a query for graph generation. <br/>
+-> The headers of the .csv file and prompt is sent to the llama2 large language model to retrive the appropriate X-axis, Y-axis and the graph type. <br/>
+-> Results are then processed and a graph is generated via the plotly module. <br/>
 
 # Project Structure
-├── app.py                 # Main application file \n
-├── templates/             \n
-│   └── index.html         # HTML template for the web interface \n
-├── llama-2-7b-chat.ggmlv3.q8_0.bin  # Llama 2 model file \n
+├── app.py                 # Main application file <br/>
+├── templates/             <br/>
+│   └── index.html         # HTML template for the web interface <br/>
+├── llama-2-7b-chat.ggmlv3.q8_0.bin  # Llama 2 model file <br/>
