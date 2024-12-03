@@ -28,6 +28,6 @@ Step-4: Run the Application
 
 # Project Structure
 ├── app.py                 # Main application file <br/>
-├── templates/             <br/>
+├── templates/                <br/>
 │   └── index.html         # HTML template for the web interface <br/>
 ├── llama-2-7b-chat.ggmlv3.q8_0.bin  # Llama 2 model file <br/>
